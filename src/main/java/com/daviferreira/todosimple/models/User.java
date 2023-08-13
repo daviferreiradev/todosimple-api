@@ -16,7 +16,7 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 @Entity
-@Table(name = "TABLE_NAME")
+@Table(name = User.TABLE_NAME)
 public class User {
     public interface CreateUser {}
     public interface UpdateUser {}
